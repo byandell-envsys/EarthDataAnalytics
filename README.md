@@ -12,6 +12,8 @@ course taught Fall 2024-Summer 2025.
 * [Earth Data Science Textbooks](https://www.earthdatascience.org/)
 * [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) 
 
+## [Images](Images.md)
+
 ## Homework
 Check
 [issues assigned to me](https://github.com/earthlab-education/Earth-Analytics-AY24/issues?q=is%3Aopen+assignee%3A%40me).
@@ -20,7 +22,8 @@ Check
   * https://github.com/byandell-Tribal/hometowns 
 * [First Map](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/169) 
   * https://github.com/cu-esiil-edu/first-map-template/
-  * <embed type="text/html" src="Images/uttc.html" width="600" height="600">
+  * See [Images.md]
+
 
 
 [Brian Yandell](https://github.com/byandell)
