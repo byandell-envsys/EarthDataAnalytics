@@ -19,7 +19,8 @@ Check
 * [Home Towns](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/142)
   * https://github.com/byandell-Tribal/hometowns 
 * [First Map](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/169) 
-  * https://github.com/cu-esiil-edu/first-map-template/ 
+  * https://github.com/cu-esiil-edu/first-map-template/
+  * <embed type="text/html" src="Images/uttc.html" width="600" height="600">
 
 
 [Brian Yandell](https://github.com/byandell)
