@@ -50,4 +50,6 @@ rsconnect/
 
 *.Rproj
 ./*.html
+README.html
+Images.html
 *.pdf

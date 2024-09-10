@@ -1,7 +1,7 @@
-# Plot UTTC boundary
-uttc_map = uttc_gdf.reset_index().hvplot(
+# Plot OSM boundary
+osm_map = osm_gdf.reset_index().hvplot(
     # Givethe map a descriptive title
-    title="United Tribes Technical College, Bismarck, ND",
+    title="UW-Madison",
     # Add a basemap
     geo=True, tiles='EsriImagery',
     # Change the colors
@@ -11,7 +11,7 @@ uttc_map = uttc_gdf.reset_index().hvplot(
     frame_width=400, frame_height=400)
 
 # Save the map as a file to put on the web
-hv.save(uttc_map, 'uttc.html')
+hv.save(osm_map, 'osm.html')
 
 # Display the map
-uttc_map
+osm_map

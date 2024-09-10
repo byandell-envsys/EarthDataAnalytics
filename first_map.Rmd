@@ -2,6 +2,10 @@
 
 <https://github.com/cu-esiil-edu/first-map-template>
 
+Use
+[Open Street Map](https://www.openstreetmap.org/)
+to search for a location.
+
 A template repository for getting started with map-making in GitHub Codespaces.
 
 To use:
@@ -46,7 +50,7 @@ narrow it down. We are also specifying that we want it to be tagged as an
 couple different searches with different addresses and/or tags to get
 the address you want, just like if you are using a map website or app.
 
-```{python child = "Python/first_map_uttc.py"}
+```{python child = "Python/first_map_osm.py"}
 ```
 
 We have a map of the UTTC Campus!
@@ -74,7 +78,7 @@ source basemap.
 If you are doing this activity on GitHub Codespaces, you will need to download the map you created:
 
 1. Open the Folders tab on the left hand side
-2. Right-click on uttc.html (or whatever you named your file)
+2. Right-click on osm.html (or whatever you named your file)
 3. Select Download...
 
 This should download your map.
@@ -84,5 +88,5 @@ This should download your map.
 You are now ready to upload your map to your portfolio repository and place it in your webpage. Because it is HTML and not an image, you will need to use the following HTML to get it on your page:
 
 ```
-<embed type="text/html" src="uttc.html" width="600" height="600">
+<embed type="text/html" src="osm.html" width="600" height="600">
 ```
