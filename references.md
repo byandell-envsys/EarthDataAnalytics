@@ -6,6 +6,11 @@
   * [Earth Data Science Textbooks](https://www.earthdatascience.org/)
 * [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) 
 
+## CodeSpaces
+
+- [GitHub Codespaces overview](https://docs.github.com/en/codespaces/overview)
+- [Stopping and starting a codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace#stopping-a-codespace)
+  
 ## Open Street Map with R
 
 [OpenStreetMap (OSM)](https://www.openstreetmap.org/).
