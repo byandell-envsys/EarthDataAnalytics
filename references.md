@@ -7,6 +7,7 @@
 * [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) 
 
 ## CodeSpaces
+Always stop a codespace when done to save resources!
 
 - [GitHub Codespaces overview](https://docs.github.com/en/codespaces/overview),
 [QuickStart](https://docs.github.com/en/codespaces/getting-started/quickstart) &
