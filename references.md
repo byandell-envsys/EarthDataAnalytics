@@ -8,7 +8,10 @@
 
 ## CodeSpaces
 
-- [GitHub Codespaces overview](https://docs.github.com/en/codespaces/overview)
+- [GitHub Codespaces overview](https://docs.github.com/en/codespaces/overview),
+[QuickStart](https://docs.github.com/en/codespaces/getting-started/quickstart) &
+[Documentation](https://docs.github.com/en/codespaces)
+- [GitHub Codespaces (Visual Studio Code)](https://code.visualstudio.com/docs/remote/codespaces)
 - [Stopping and starting a codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace#stopping-a-codespace)
   
 ## Open Street Map with R
