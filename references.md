@@ -27,6 +27,7 @@ OSM is a free resource with maps and features (but should be cited).
 Most people seem to use Python to work with such maps, but there
 are some tools in R.
 
+- [OSM Wiki](https://wiki.openstreetmap.org/wiki/How_to_contribute)
 - [Making Maps with R](https://bookdown.org/nicohahn/making_maps_with_r5/docs/introduction.html)
 - [Quantitative Analysis with R by Brian Wood](https://bookdown.org/brianwood1/QDASS/)
 - [Automating Map generation from Multi-polygon shapefiles using Python with GeoPandas and Matplotlib](https://medium.com/@sooryanarayan_5231/automating-map-generation-from-multi-polygon-shapefiles-using-python-with-geopandas-and-matplotlib-aad4c79f8d5e)
