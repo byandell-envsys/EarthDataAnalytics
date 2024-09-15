@@ -28,6 +28,7 @@ Most people seem to use Python to work with such maps, but there
 are some tools in R.
 
 - [Making Maps with R](https://bookdown.org/nicohahn/making_maps_with_r5/docs/introduction.html)
+- [Quantitative Analysis with R by Brian Wood](https://bookdown.org/brianwood1/QDASS/)
 - [Automating Map generation from Multi-polygon shapefiles using Python with GeoPandas and Matplotlib](https://medium.com/@sooryanarayan_5231/automating-map-generation-from-multi-polygon-shapefiles-using-python-with-geopandas-and-matplotlib-aad4c79f8d5e)
 
 ### osmdata package
@@ -38,7 +39,8 @@ are some tools in R.
 
 ### ggspatial package
 
-- [ggspatial](https://paleolimbot.github.io/ggspatial/) overlay OSM or other maps using R
+- [ggspatialto overlay OSM or other maps using R](https://paleolimbot.github.io/ggspatial/)
+- [Spatial objects using ggspatial and ggplot2](https://paleolimbot.github.io/ggspatial/articles/ggspatial.html)
 
 ### tmap package
 
