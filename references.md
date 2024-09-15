@@ -27,12 +27,21 @@ OSM is a free resource with maps and features (but should be cited).
 Most people seem to use Python to work with such maps, but there
 are some tools in R.
 
-[OpenStreetMap (OSM)](https://www.openstreetmap.org/)
+### osmdata package
+
 - [osmdata Vignette](https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html)
 - [Mapping with Open Street Maps in R](https://jcoliver.github.io/learn-r/017-open-street-map.html)
+
+## Rspatial and the ggspatial package
+
 - [Open Street Map data (RSpatialData)](https://rspatialdata.github.io/osm.html)
 - [ggspatial](https://paleolimbot.github.io/ggspatial/) overlay OSM or other maps using R
+
+### Thematic Maps (R/tmap)
+
+- [tmap: thematic maps in R](https://r-tmap.github.io/tmap/)
 - [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html) interactive maps
+- [tmap book](https://r-tmap.github.io/tmap-book/
 
 ## Google Maps Platform Access
 
