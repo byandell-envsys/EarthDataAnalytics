@@ -31,13 +31,13 @@ are some tools in R.
 
 - [osmdata Vignette](https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html)
 - [Mapping with Open Street Maps in R](https://jcoliver.github.io/learn-r/017-open-street-map.html)
-
-## Rspatial and the ggspatial package
-
 - [Open Street Map data (RSpatialData)](https://rspatialdata.github.io/osm.html)
+
+### ggspatial package
+
 - [ggspatial](https://paleolimbot.github.io/ggspatial/) overlay OSM or other maps using R
 
-### Thematic Maps (R/tmap)
+### tmap package
 
 - [tmap: thematic maps in R](https://r-tmap.github.io/tmap/)
 - [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html) interactive maps
