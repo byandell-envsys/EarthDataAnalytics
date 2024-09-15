@@ -15,7 +15,7 @@ Always stop a codespace when done to save resources!
 - [GitHub Codespaces (Visual Studio Code)](https://code.visualstudio.com/docs/remote/codespaces)
 - [Stopping and starting a codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace#stopping-a-codespace)
   
-## Open Street Map with R
+## Open Street Map
 
 [OpenStreetMap (OSM)](https://www.openstreetmap.org/).
 Data can be accessed via `osmdata`. 
@@ -26,6 +26,9 @@ Interactive maps can be produces with package `tmap`.
 OSM is a free resource with maps and features (but should be cited).
 Most people seem to use Python to work with such maps, but there
 are some tools in R.
+
+- [Making Maps with R](https://bookdown.org/nicohahn/making_maps_with_r5/docs/introduction.html)
+- [Automating Map generation from Multi-polygon shapefiles using Python with GeoPandas and Matplotlib](https://medium.com/@sooryanarayan_5231/automating-map-generation-from-multi-polygon-shapefiles-using-python-with-geopandas-and-matplotlib-aad4c79f8d5e)
 
 ### osmdata package
 
@@ -39,9 +42,11 @@ are some tools in R.
 
 ### tmap package
 
+- [Quickstart Guide - Shapefiles and R(tmap)](https://www.kaggle.com/code/umeshnarayanappa/quickstart-guide-shapefiles-and-r-tmap)
 - [tmap: thematic maps in R](https://r-tmap.github.io/tmap/)
 - [tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html) interactive maps
-- [tmap book](https://r-tmap.github.io/tmap-book/
+- [tmap book](https://r-tmap.github.io/tmap-book/)
+- [tmap: using make-valid for multipolygons](https://stackoverflow.com/questions/76455486/impossible-to-plot-osm-multipolygons-in-tmap-and-leaflet)
 
 ## Google Maps Platform Access
 
