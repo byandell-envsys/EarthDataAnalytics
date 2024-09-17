@@ -20,6 +20,7 @@ Always stop a codespace when done to save resources!
 - [Pandas Library](https://pandas.pydata.org/docs/)
 - [Pandas Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
 - [Pandas API Reference](https://pandas.pydata.org/docs/reference/)
+- [EDA 1. Intro to Pandas Dataframes](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/)
 
 ## Open Street Map
 
