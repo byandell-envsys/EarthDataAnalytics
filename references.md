@@ -17,7 +17,7 @@ Always stop a codespace when done to save resources!
   
 ## Python Coding
 
-- [Pandas Library](https://urldefense.com/v3/__https://pandas.pydata.org/docs/)
+- [Pandas Library](https://pandas.pydata.org/docs/)
 - [Pandas Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
 - [Pandas API Reference](https://pandas.pydata.org/docs/reference/)
 
