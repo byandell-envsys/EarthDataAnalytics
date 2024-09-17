@@ -15,6 +15,12 @@ Always stop a codespace when done to save resources!
 - [GitHub Codespaces (Visual Studio Code)](https://code.visualstudio.com/docs/remote/codespaces)
 - [Stopping and starting a codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace#stopping-a-codespace)
   
+## Python Coding
+
+- [Pandas Library](https://urldefense.com/v3/__https://pandas.pydata.org/docs/)
+- [Pandas Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [Pandas API Reference](https://pandas.pydata.org/docs/reference/)
+
 ## Open Street Map
 
 [OpenStreetMap (OSM)](https://www.openstreetmap.org/).
