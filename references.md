@@ -1,5 +1,6 @@
 # References
 
+* [Fundamentals of Earth Data Analytics (EDA)](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/01-fundamentals/00-home.html)
 * [Introduction to Earth Data Science | Earth Lab CU Boulder](https://www.earthdatascience.org/courses/intro-to-earth-data-science/)
   * [Syllabus Wiki](https://github.com/earthlab-education/Earth-Analytics-AY24/wiki)
   * [Earth Data Analytics – Foundations Textbook](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/00-home.html)
