@@ -19,7 +19,8 @@
   * [Syllabus Wiki](https://github.com/earthlab-education/Earth-Analytics-AY24/wiki)
   * [Earth Data Analytics – Foundations Textbook](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/00-home.html)
   * [Earth Data Science Textbooks](https://www.earthdatascience.org/)
-* [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) 
+* [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/)
+* [Geospatial Resources](https://github.com/byandell/geospatial/blob/main/README.md#geospatial-resources)
 
 ## GitHub Pages
 
