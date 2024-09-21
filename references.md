@@ -46,6 +46,9 @@ that was forked from
 - [Jekyll Now](https://github.com/barryclark/jekyll-now)
   - [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) 
   - [Other forkable themes](https://github.com/barryclark/jekyll-now/#other-forkable-themes)
+- [MkDocs](https://github.com/mkdocs/mkdocs/tree/master) (advanced topic)
+  - [Materials for MkDocs: Publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
+  - [Deploying your docs](https://www.mkdocs.org/user-guide/deploying-your-docs/)
 
 ## CodeSpaces
 Always stop a codespace when done to save resources!
