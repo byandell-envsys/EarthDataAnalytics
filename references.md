@@ -1,5 +1,12 @@
 # References
 
+- [Earth Data Analytics](#earth-data-analytics)
+- [GitHub Pages](#github-pages)
+- [Codespaces](#codespaces)
+- [Python Coding](#python-coding)
+- [Open Street Map](#open-street-map)
+- [Google Maps Platform Access](#google-maps-platform-access)
+
 ## Earth Data Analytics
 
 * [Fundamentals of Earth Data Analytics (EDA)](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/01-fundamentals/00-home.html)
