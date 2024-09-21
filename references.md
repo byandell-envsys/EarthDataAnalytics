@@ -1,5 +1,7 @@
 # References
 
+## Earth Data Analytics
+
 * [Fundamentals of Earth Data Analytics (EDA)](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/01-fundamentals/00-home.html)
   * [1. Get started with open reproducible science](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/01-fundamentals/01-portfolio.html)
   * [2. Time-series Data](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/01-fundamentals/02-time-series.html)
@@ -11,6 +13,31 @@
   * [Earth Data Analytics – Foundations Textbook](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/00-home.html)
   * [Earth Data Science Textbooks](https://www.earthdatascience.org/)
 * [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) 
+
+## GitHub Pages
+
+My main GitHub Page
+[byandell.github.io](https://byandell.github.io),
+with source at
+<https://github.com/byandell/byandell.github.io>,
+was modeled on (forked from)
+<https://github.com/barryclark/jekyll-now>.
+This has to cool feature of blog pages.
+
+In addition to my main GitHub Page, I have a separately generated subpage
+[byandell.github.io/ESIIL](https://byandell.github.io/ESIIL),
+with source at
+<https://github.com/byandell/ESIIL>,
+that was forked from
+<https://github.com/CU-ESIIL/Postdoc_OASIS>.
+
+- [ESIIL Data Short Course: Create your own portfolio webpage](https://cu-esiil-edu.github.io/esiil-learning-portal/shortcourse/pages/03-git-github/03-github-portfolio/01-create-portfolio-website.html)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+- [Publish Your Project Documentation with GitHub Pages](https://github.blog/developer-skills/github/publish-your-project-documentation-with-github-pages/)
+- [GitHub Page Themes](https://pages.github.com/themes/)
+- [Jekyll Now](https://github.com/barryclark/jekyll-now)
+  - [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) 
+  - [Other forkable themes](https://github.com/barryclark/jekyll-now/#other-forkable-themes)
 
 ## CodeSpaces
 Always stop a codespace when done to save resources!
