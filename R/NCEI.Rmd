@@ -1,0 +1,108 @@
+---
+title: "Climate from NCEI"
+author: "Brian Yandell"
+date: "2024-09-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+station <- 'USW00014922'
+MSP_URL <- paste0(
+    'https://www.ncei.noaa.gov/access/services/data/v1',
+    '?dataset=daily-summaries',
+    '&dataTypes=TMIN,TMAX,PRCP', # leave blank to get all
+    '&stations=', station,
+    '&startDate=1893-01-01&endDate=2024-10-01',
+    '&units=metric')
+MSP_URL
+```
+
+Import data into Python from NCEI API
+
+```{r}
+MSP_data <- readr::read_csv(MSP_URL, na = c('','NaN'))
+MSP_data
+```
+
+```{r}
+MSP_year <- MSP_data |>
+  dplyr::mutate(YEAR = lubridate::year(.data$DATE)) |>
+  dplyr::group_by(.data$YEAR) |>
+  dplyr::summarize(
+    PRCP = mean(.data$PRCP, na.rm = TRUE),
+    TMAX = mean(.data$TMAX, na.rm = TRUE),
+    TMIN = mean(.data$TMIN, na.rm = TRUE),
+    .groups = "drop") |>
+  dplyr::ungroup()
+MSP_year
+```
+
+```{r}
+ggplot2::ggplot(MSP_year) +
+  ggplot2::aes(.data$YEAR, .data$TMAX) +
+  ggplot2::geom_line() +
+  ggplot2::ggtitle('Annual Max Temperature over Time for St Paul, MN') +
+  ggplot2::xlab('Date') +
+  ggplot2::ylab('Temperature (C)')
+```
+
+```{r}
+ggplot2::ggplot(MSP_year) +
+  ggplot2::aes(.data$YEAR, .data$TMAX) +
+  ggplot2::geom_point(alpha = 0.5) +
+  ggplot2::geom_smooth(method = "lm", formula = "y~x", se = FALSE,
+                       color = "red") +
+  ggplot2::ggtitle('Annual Max Temperature over Time for St Paul, MN') +
+  ggplot2::xlab('Date') +
+  ggplot2::ylab('Temperature (C)')
+
+```
+
+```{r}
+ggplot2::ggplot(MSP_year) +
+  ggplot2::aes(.data$YEAR, .data$TMAX) +
+  ggplot2::geom_point(alpha = 0.5) +
+  ggplot2::geom_smooth(method = "lm", formula = "y~x", se = FALSE,
+                       color = "red") +
+  ggplot2::geom_smooth(method = "loess", formula = "y~x", se = FALSE,
+                       color = "green") +
+  ggplot2::ggtitle('Annual Max Temperature over Time for St Paul, MN') +
+  ggplot2::xlab('Date') +
+  ggplot2::ylab('Temperature (C)')
+
+```
+
+This shows OLS (red) and LOESS (green), the latter being a smooth
+curve (locally polynomial) that captures local features such as the
+upswing at either end.
+This deals with outliers by locally smoothing rather than removing them.
+
+## Finding stations with GSODR
+
+See
+[GSODR Vignette](https://cran.r-project.org/web/packages/GSODR/vignettes/GSODR.html).
+
+```{r}
+# Fetch the list of stations
+stations <- dplyr::as_tibble(GSODR::get_isd_history())
+```
+
+```{r}
+names(stations)
+```
+
+```{r}
+(msp_stations <- stations |>
+  dplyr::filter(grepl("ST PAUL", .data$NAME),
+                STATE == "MN", CTRY == "US") |>
+  dplyr::select(STNID, NAME, STATE, CTRY))
+```
+
+```{r}
+msp <- GSODR::get_GSOD(years = 2020, station = msp_stations$STNID)
+```
+

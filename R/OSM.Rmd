@@ -1,0 +1,100 @@
+---
+title: "Earth Analytics First Map"
+author: "Brian Yandell"
+date: "2024-09-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is translated from
+[first-map.ipynb](https://github.com/byandell-Tribal/first-map-template/blob/main/first-map.ipynb).
+I first used
+<https://www.codeconvert.ai/python-to-r-converter>,
+which only got partway there.
+Then I used 
+[MS CoPilot](https://copilot.microsoft.com/)
+(via UW-Madison license).
+
+The 
+[OpenStreetMap (OSM)](https://www.openstreetmap.org/)
+data is accessed via `osmdata`. 
+Static maps are plotted using `ggplot2` with `sf` bridging
+with `geom_sf` for polygon and point layers.
+OSM base map layer is added with 
+`annotation_map_tile` from `ggspatial` package.
+Interactive maps can be produces with package `tmap`.
+
+Interactive map
+
+```{r eval=FALSE}
+# Load necessary libraries
+library(sf)
+library(ggplot2)
+library(osmdata)
+library(ggspatial)
+library(tmap)
+```
+
+```{r}
+# Search for locations by name - this might take a moment
+osm_gdf <- osmdata::opq("UW-Madison") |>
+  osmdata::add_osm_feature(key = "amenity", value = "university") |>
+  osmdata::osmdata_sf()
+osm_gdf
+```
+
+Plot the outline of UW-Madison.
+This does not automatically overlay on a map.
+                          
+```{r}
+# Plot OSM boundary
+osm_map <- ggplot2::ggplot() +
+  # Base map from OpenStreetMap
+  ggspatial::annotation_map_tile(type = "osm", zoom = 14,
+                                 progress = "none") +
+  # OSM points
+  ggplot2::geom_sf(data = osm_gdf$osm_points, 
+          fill = "transparent", 
+          alpha = 0.2, 
+          color = "red", 
+          size = 1) +
+  # OSM multipolygons (there are no polygons)
+  ggplot2::geom_sf(data = osm_gdf$osm_multipolygons, 
+          fill = "transparent", 
+          alpha = 0.2, 
+          color = "red", 
+          size = 2) +
+  ggplot2::ggtitle("UW-Madison") +
+  ggplot2::theme_minimal() +
+  ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5)) +
+  ggplot2::coord_sf()
+
+# Display the map
+print(osm_map)
+```
+
+```{r eval=FALSE}
+# Save the map as a file to put on the web (not quite right)
+ggplot2::ggsave("osm.html", plot = osm_map, device = "html")
+```
+
+Interactive plot using 
+[tmap](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html).
+Display seems to require an intermediate step of `sf::st_make_valid()` to render properly.
+
+```{r}
+intmd <- sf::st_make_valid(osm_gdf$osm_multipolygons)
+```
+
+```{r warning=FALSE}
+tmap::tmap_mode("view")
+```
+
+```{r}
+tmap::tm_shape(intmd) +
+  tmap::tm_basemap("OpenStreetMap") +
+  tmap::tm_borders(col = "red", lwd = 2)
+```
