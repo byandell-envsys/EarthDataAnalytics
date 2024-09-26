@@ -27,7 +27,6 @@ Outcomes are reported in
       - [7_Portfolio_Post_Write_Post.ipynb](https://github.com/earthlab-education/climate-coding-challenge-byandell/blob/main/7_Portfolio_Post_Write_Post.ipynb)
       - [EarthDataAnalytics/Climate_1.html](https://github.com/byandell/ESIIL/blob/main/docs/EarthDataAnalytics/Climate_1.html)
   - [NCEI.Rmd](https://github.com/byandell-Tribal/EarthAnalytics_2024/blob/main/R/NCEI.R)
-  - [NCEI.html](https://github.com/byandell-Tribal/EarthAnalytics_2024/blob/main/R/NCEI.R)
 
 ## Other Projects Not Here
 
