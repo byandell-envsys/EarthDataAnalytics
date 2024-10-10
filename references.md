@@ -88,7 +88,14 @@ ssh-keygen -t ed25519 -C "byandell@wisc.edu"
 ```
 
 Default storage is in
-`/Users/brianyandell/.ssh/id_ed25519`.
+`~/.ssh/id_ed25519`.
+
+Can use `pbcopy` to copy public key to clipboard for
+subsequent paste to GitHub SSH key generation.
+
+```
+cat ~/.ssh/id_ed25519.pub | pbcopy
+```
 
 ## Python Coding
 
