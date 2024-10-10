@@ -62,9 +62,14 @@ Always stop a codespace when done to save resources!
 ## Visual Studio Code & GitBash
 
 - [Lesson 2. Setup Git, Bash, and Conda on Your Computer Setup earth analytics environment](https://www.earthdatascience.org/workshops/setup-earth-analytics-python/setup-git-bash-conda/)
-- <https://code.visualstudio.com/download>
+- [Visual Studio Code](https://code.visualstudio.com/download)
 - <https://git-scm.com/downloads>
+  - Install `git` and `git-gui`.
+  - `git` is already installed if using it within `Rstudio`.
+  - Start `git-gui` from shell.
 - <https://docs.anaconda.com/miniconda/>
+  - Install `bash`, not `pkg`.
+  - [Miniconda3 macOS Apple M1 64-bit bash](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh)
 - [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ## Python Coding
