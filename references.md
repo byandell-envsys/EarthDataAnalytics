@@ -61,6 +61,7 @@ Always stop a codespace when done to save resources!
   
 ## Visual Studio Code & GitBash
 
+- [Lesson 2. Setup Git, Bash, and Conda on Your Computer Setup earth analytics environment](https://www.earthdatascience.org/workshops/setup-earth-analytics-python/setup-git-bash-conda/)
 - <https://code.visualstudio.com/download>
 - <https://git-scm.com/downloads>
 - <https://docs.anaconda.com/miniconda/>
