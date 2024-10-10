@@ -81,6 +81,12 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm ~/miniconda3/miniconda.sh
 ```
 
+Set up SSH key (see instructions above).
+
+```
+ssh-keygen -t ed25519 -C "byandell@wisc.edu"
+```
+
 ## Python Coding
 
 - [Pandas Library](https://pandas.pydata.org/docs/)
