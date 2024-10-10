@@ -87,6 +87,9 @@ Set up SSH key (see instructions above).
 ssh-keygen -t ed25519 -C "byandell@wisc.edu"
 ```
 
+Default storage is in
+`/Users/brianyandell/.ssh/id_ed25519`.
+
 ## Python Coding
 
 - [Pandas Library](https://pandas.pydata.org/docs/)
