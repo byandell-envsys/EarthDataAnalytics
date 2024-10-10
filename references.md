@@ -59,6 +59,13 @@ Always stop a codespace when done to save resources!
 - [GitHub Codespaces (Visual Studio Code)](https://code.visualstudio.com/docs/remote/codespaces)
 - [Stopping and starting a codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace#stopping-a-codespace)
   
+## Visual Studio Code & GitBash
+
+- <https://code.visualstudio.com/download>
+- <https://git-scm.com/downloads>
+- <https://docs.anaconda.com/miniconda/>
+- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ## Python Coding
 
 - [Pandas Library](https://pandas.pydata.org/docs/)
