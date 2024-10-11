@@ -61,16 +61,16 @@ Always stop a codespace when done to save resources!
   
 ## Home Computer Visual Studio Code & GitBash
 
-- [Lesson 2. Setup Git, Bash, and Conda on Your Computer Setup earth analytics environment](https://www.earthdatascience.org/workshops/setup-earth-analytics-python/setup-git-bash-conda/)
+[Lesson 2. Setup Git, Bash, and Conda on Your Computer Setup earth analytics environment](https://www.earthdatascience.org/workshops/setup-earth-analytics-python/setup-git-bash-conda/)
+
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- <https://git-scm.com/downloads>
+- [git](https://git-scm.com/downloads)
   - `git` is already installed if using it within `Rstudio`.
   - Install `git`, maybe `git-gui`.
   - Start `git-gui` from shell.
-- <https://docs.anaconda.com/miniconda/>
+- [miniconda](https://docs.anaconda.com/miniconda/)
   - Install `bash`, not `pkg`.
   - [Miniconda3 macOS Apple M1 64-bit bash](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh)
-- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 Command line entries to install `miniconda` via bash:
 
@@ -81,7 +81,9 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm ~/miniconda3/miniconda.sh
 ```
 
-Set up SSH key in GitHub account (see instructions above).
+### Set up SSH key in GitHub account
+
+[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ```
 ssh-keygen -t ed25519 -C "byandell@wisc.edu"
@@ -91,7 +93,7 @@ Default storage is in
 `~/.ssh/id_ed25519`.
 
 Can use `pbcopy` to copy public key to clipboard for
-subsequent paste to GitHub SSH key generation.
+subsequent paste to GitHub SSH key generation (2 ways).
 
 ```
 cat ~/.ssh/id_ed25519.pub | pbcopy
