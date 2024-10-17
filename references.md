@@ -107,6 +107,8 @@ pbcopy < ~/.ssh/id_ed25519.pub
   - [Pandas API Reference](https://pandas.pydata.org/docs/reference/)
 - [EDA Scientific Data Structures in Python](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/)
   - [EDA 6.15. Intro to Pandas Dataframes](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/)
+ 
+ <https://github.com/earthlab/earth-analytics-python-env>
 
 ## Open Street Map
 
