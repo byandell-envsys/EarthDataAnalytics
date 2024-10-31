@@ -1,4 +1,4 @@
-# EarthAnalytics_2024
+# Earth Data Analytics
 
 This repo has my notes for the
 [Earth-Analytics-AY24](https://github.com/earthlab-education/Earth-Analytics-AY24)
