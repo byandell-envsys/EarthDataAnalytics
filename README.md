@@ -15,6 +15,7 @@ Check
 
 | Due | Overview | Workspace | Outcome | R |
 | ---- | -------- | --------- | ----- | ----- |
+| 1 Dec | [Habitat Suitability](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/603) | <>
 | 24 Oct | [Urban Greenspace and Redlining, Part 1](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/541) | <https://github.com/earthlab-education/fundamentals-04-redlining-byandell> |||
 | 17 Oct | [Species Distribution](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/433), [GitHub Classroom](https://classroom.github.com/assignment-invitations/765507643e00ed46400ea1523e639979), [D#449](https://github.com/earthlab-education/Earth-Analytics-AY24/discussions/449), [D#519](https://github.com/earthlab-education/Earth-Analytics-AY24/discussions/519) | <https://github.com/earthlab-education/species-distribution-coding-challenge-byandell> |
 | 10 Oct | [Data Feminism: The Numbers Don't Speak for Themselves](https://github.com/earthlab-education/Earth-Analytics-AY24/discussions/462) | [Discussion 462](https://github.com/earthlab-education/Earth-Analytics-AY24/discussions/462) | [Comment](https://github.com/earthlab-education/Earth-Analytics-AY24/discussions/462#discussioncomment-10908773) |
