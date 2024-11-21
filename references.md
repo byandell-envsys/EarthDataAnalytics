@@ -48,7 +48,9 @@ that was forked from
   - [Other forkable themes](https://github.com/barryclark/jekyll-now/#other-forkable-themes)
 - [MkDocs](https://github.com/mkdocs/mkdocs/tree/master) (advanced topic)
   - [Materials for MkDocs: Publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
-  - [Deploying your docs](https://www.mkdocs.org/user-guide/deploying-your-docs/)
+  - [Deploying your docs](https://www.mkdocs.org/user-guide/deploying-your-docs/) 
+- [.gitignore](https://git-scm.com/docs/gitignore)
+  - [Ignoring Files](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
 
 ## CodeSpaces
 Always stop a codespace when done to save resources!
