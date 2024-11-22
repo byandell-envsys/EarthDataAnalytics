@@ -104,6 +104,8 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 ## Python Coding
 
+- [Python Tutorial](https://docs.python.org/3/tutorial/)
+  - [Modules](https://docs.python.org/3/tutorial/modules.html)
 - [Pandas Library](https://pandas.pydata.org/docs/)
   - [Pandas Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
   - [Pandas API Reference](https://pandas.pydata.org/docs/reference/)
