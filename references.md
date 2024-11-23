@@ -113,7 +113,10 @@ pbcopy < ~/.ssh/id_ed25519.pub
   - [EDA 6.15. Intro to Pandas Dataframes](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/)
   - [Subtract One Raster from Another and Export a New GeoTIFF in Open Source Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/raster-data-processing/subtract-rasters-in-python/)
 - [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
-- [Try and Except code for NetCDF](https://www.earthdatascience.org/courses/use-data-open-source-python/hierarchical-data-formats-hdf/get-maca-2-climate-data-netcdf-python/)
+- [Try and Except code for NetCDF](https://www.earthdatascience.org/courses/use-data-open-source-python/hierarchical-data-formats-hdf/get-maca-2-climate-data-netcdf-python/);
+- [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
+  - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/#introduction)
+  - [PEP 257: Docstring Conventions](https://peps.python.org/pep-0257/)
 
  
  <https://github.com/earthlab/earth-analytics-python-env>
