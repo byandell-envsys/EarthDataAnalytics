@@ -109,18 +109,17 @@ pbcopy < ~/.ssh/id_ed25519.pub
 - [Pandas Library](https://pandas.pydata.org/docs/)
   - [Pandas Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
   - [Pandas API Reference](https://pandas.pydata.org/docs/reference/)
-- [Python Developer’s Guide](https://devguide.python.org/)
 - [EDA Scientific Data Structures in Python](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/)
   - [EDA 6.15. Intro to Pandas Dataframes](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/)
   - [Subtract One Raster from Another and Export a New GeoTIFF in Open Source Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/raster-data-processing/subtract-rasters-in-python/)
 - [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 - [Try and Except code for NetCDF](https://www.earthdatascience.org/courses/use-data-open-source-python/hierarchical-data-formats-hdf/get-maca-2-climate-data-netcdf-python/);
 - [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
-  - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/#introduction)
-  - [PEP 257: Docstring Conventions](https://peps.python.org/pep-0257/)
   - [Hitchhikers Guide to Documentation](https://docs.python-guide.org/writing/documentation/)
+    - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/#introduction)
+    - [PEP 257: Docstring Conventions](https://peps.python.org/pep-0257/)
   - [Documentation in Python: Methods and Best Practices](https://swimm.io/learn/code-documentation/documentation-in-python-methods-and-best-practices)
-  - [Python Developer’s Guide: Documentation](https://devguide.python.org/documentation/start-documenting/)
+- [Python Developer’s Guide](https://devguide.python.org/)
 
  
  <https://github.com/earthlab/earth-analytics-python-env>
