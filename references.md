@@ -120,6 +120,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
     - [PEP 257: Docstring Conventions](https://peps.python.org/pep-0257/)
   - [Documentation in Python: Methods and Best Practices](https://swimm.io/learn/code-documentation/documentation-in-python-methods-and-best-practices)
 - [Python Developer’s Guide](https://devguide.python.org/)
+- [Integrating Python Code With R](https://www.geeksforgeeks.org/integrating-python-code-with-r/)
 
  
  <https://github.com/earthlab/earth-analytics-python-env>
