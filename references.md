@@ -114,6 +114,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
       - [Python venv: How To Create, Activate, Deactivate, And Delete](https://python.land/virtual-environments/virtualenv) 
   - [EDA 6.15. Intro to Pandas Dataframes](https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/)
   - [Subtract One Raster from Another and Export a New GeoTIFF in Open Source Python](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/raster-data-processing/subtract-rasters-in-python/)
+  - [Earth Analytics Python Env](https://github.com/earthlab/earth-analytics-python-env)
 - [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 - [Try and Except code for NetCDF](https://www.earthdatascience.org/courses/use-data-open-source-python/hierarchical-data-formats-hdf/get-maca-2-climate-data-netcdf-python/);
 - [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
@@ -123,9 +124,13 @@ pbcopy < ~/.ssh/id_ed25519.pub
   - [Documentation in Python: Methods and Best Practices](https://swimm.io/learn/code-documentation/documentation-in-python-methods-and-best-practices)
 - [Python Developer’s Guide](https://devguide.python.org/)
 - [Integrating Python Code With R](https://www.geeksforgeeks.org/integrating-python-code-with-r/)
-
- 
- <https://github.com/earthlab/earth-analytics-python-env>
+- [Creating an Animated GIF with Python](https://www.blog.pythonlibrary.org/2021/06/23/creating-an-animated-gif-with-python/)
+  - [Create an Animated GIF Using Python Matplotlib
+](https://www.geeksforgeeks.org/create-an-animated-gif-using-python-matplotlib/)
+  - [Create a GIF with Python](https://www.codedex.io/projects/create-a-gif-with-python)
+  - [Using Python to make an animated gif out of a collection of images](https://propolis.io/articles/make-animated-gif-using-python.html)
+  - [How to make a gif map using Python, Geopandas and Matplotlib](https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
+  - [How to create animated GIF with Pillow in Python](https://note.nkmk.me/en/python-pillow-gif/)
 
 ## Open Street Map
 
