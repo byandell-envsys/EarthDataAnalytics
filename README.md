@@ -15,7 +15,8 @@ Check
 
 | Due | Overview | Workspace | Outcome | R |
 | ---- | -------- | --------- | ----- | ----- |
-| 4 Feb 25 | [Land cover classification at the Mississppi Delta](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/12-clustering/clustering.html) | <https://github.com/earthlab-education/clustering-byandell>
+| 4 Feb 25 | [Clustering](https://classroom.github.com/assignment-invitations/a7ed9f7ee1826ed55ffcaa9508d31a29/status),
+[Land cover classification at the Mississppi Delta](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/12-clustering/clustering.html) | <https://github.com/earthlab-education/clustering-byandell>
 | 16 Jan 25 | [Unit 6: Big Data](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/11-big-data/big-data.html) | <https://github.com/earthlab-education/big-data-byandell> |
 | 15 Dec 24 | [Habitat Suitability](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/603) | <https://github.com/byandell-envsys/habitatSuitability> | [EarthDataAnalytics/#habitat-project](https://byandell.github.io/ESIIL/EarthDataAnalytics/#habitat-project), [landmapy Python Package](https://github.com/byandell-envsys/landmapy)
 | 20 Nov 24 | [Urban Greenspace and Redlining, Part 1](https://github.com/earthlab-education/Earth-Analytics-AY24/issues/541) | <https://github.com/earthlab-education/fundamentals-04-redlining-byandell> | [EarthDataAnalytics/#redlining-project](https://byandell.github.io/ESIIL/EarthDataAnalytics/#redlining-project) | [redlineApp()](https://github.com/byandell-envsys/geospatial) |
