@@ -22,6 +22,14 @@
 * [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/)
 * [Geospatial Resources](https://github.com/byandell/geospatial/blob/main/README.md#geospatial-resources)
 
+## Datasets
+
+Some federal datasets have been removed recently (!), so it is useful to have backdoors to data.
+
+* [Wayback Machine](https://web.archive.org/)
+  * [CDC datasets uploaded before January 28th, 2025](https://archive.org/details/20250128-cdc-datasets)
+* blah
+  
 ## GitHub Pages
 
 My main GitHub Page
