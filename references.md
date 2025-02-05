@@ -15,6 +15,9 @@
   * [3. Mapping migration](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/03-species-distribution/species-distribution.html)
   * [4. Redlining and Urban Green Space](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/10-redlining/redlining.html)
   * [5. Habitat Suitability Coding Challenge](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/08-habitat/habitat.html)
+* Topics
+  * [1. Big Data: Urban Greenspace and Asthma Prevalence](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/11-big-data/big-data.html)
+  * [2. Clustering: Land cover classification at the Mississippi Delta](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/notebooks/12-clustering/clustering.html)
 * [Introduction to Earth Data Science | Earth Lab CU Boulder](https://www.earthdatascience.org/courses/intro-to-earth-data-science/)
   * [Syllabus Wiki](https://github.com/earthlab-education/Earth-Analytics-AY24/wiki)
   * [Earth Data Analytics – Foundations Textbook](https://cu-esiil-edu.github.io/esiil-learning-portal/foundations/pages/00-course-overviews/foundations/00-home.html)
