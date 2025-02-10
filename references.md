@@ -1,6 +1,7 @@
 # References
 
 - [Earth Data Analytics](#earth-data-analytics)
+- [Datasets](#datasets)
 - [GitHub Pages](#github-pages)
 - [Codespaces](#codespaces)
 - [Python Coding](#python-coding)
@@ -31,7 +32,7 @@ Some federal datasets have been removed recently (!), so it is useful to have ba
 
 * [Wayback Machine](https://web.archive.org/)
   * [CDC datasets uploaded before January 28th, 2025](https://archive.org/details/20250128-cdc-datasets)
-* blah
+* [Harvard data.gov Archive](https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/)
   
 ## GitHub Pages
 
