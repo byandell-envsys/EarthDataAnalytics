@@ -157,6 +157,8 @@ Enables richer object representations using _ipython_display_() or _repr_*_() me
 Allows browsing and reusing previous commands across sessions.
 These methods streamline development, debugging, and exploration in interactive Python environments.
 
+References:
+
 - [IPython Reference](https://ipython.org/ipython-doc/3/interactive/reference.html)
   - [Built-in magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 
