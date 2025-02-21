@@ -65,6 +65,18 @@ that was forked from
 - [.gitignore](https://git-scm.com/docs/gitignore)
   - [Ignoring Files](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
 
+### GitHub Submodules
+
+GitHub submodules allow sharing a page or subset of a GitHub repository with other repos.
+This could be useful if some object in a repo is directly useful to another.
+For instance, documentation such as this page might be useful to multiple projects.
+
+- [Working with submodules (GitHub Blog](https://github.blog/open-source/git/working-with-submodules/)
+- [Git Submodules basic explanation (GitHub Gist)](https://gist.github.com/gitaarik/8735255)
+- [7.11 Git Tools - Submodules (Git-SCM)](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+- [Using submodules with GitHub Pages (GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/using-submodules-with-github-pages)
+- [How to Use Git Submodules with Examples (FreeCodeCamp)](https://www.freecodecamp.org/news/how-to-use-git-submodules/)
+
 ## CodeSpaces
 Always stop a codespace when done to save resources!
 
