@@ -5,7 +5,8 @@ This repo has my notes for the
 course taught Fall 2024-Summer 2025.
 
 * [Earth Analytics Education Program · GitHub](https://github.com/earthlab-education)
-  * [Earth-Analytics-AY24](https://github.com/earthlab-education/Earth-Analytics-AY24) 
+  * [Earth-Analytics-AY24](https://github.com/earthlab-education/Earth-Analytics-AY24)
+  * [GEOG 5663 - Earth Analytics Applications (Canvas)](https://canvas.colorado.edu/courses/115453) 
   
 ## [References](references.md)
 
