@@ -10,7 +10,8 @@ course taught Fall 2024-Summer 2025.
   
 ## [References](references.md)
 
-## Homework
+## Projects
+
 Check
 [issues assigned to me](https://github.com/earthlab-education/Earth-Analytics-AY24/issues?q=is%3Aopen+assignee%3A%40me).
 
