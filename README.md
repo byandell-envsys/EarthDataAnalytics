@@ -10,6 +10,8 @@ course taught Fall 2024-Summer 2025.
   
 ## [References](references.md)
 
+## [Python Coding Strategy](https://github.com/byandell-envsys/landmapy/blob/main/strategy.md)
+
 ## Projects
 
 Check
