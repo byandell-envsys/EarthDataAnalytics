@@ -8,9 +8,9 @@ course taught Fall 2024-Summer 2025.
   * [Earth-Analytics-AY24](https://github.com/earthlab-education/Earth-Analytics-AY24)
   * [GEOG 5663 - Earth Analytics Applications (Canvas)](https://canvas.colorado.edu/courses/115453) 
   
-## [References](references.md)
+## [Python References]([references.md](https://github.com/byandell/Documentation/blob/main/python_references.md))
 
-## [Python Coding Strategy](https://github.com/byandell-envsys/landmapy/blob/main/strategy.md)
+## [Python Coding Strategy](https://github.com/byandell/Documentation/blob/main/python_strategy.md)
 
 ## Projects
 
